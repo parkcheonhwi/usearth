@@ -42,7 +42,7 @@ async function searchAptList(){
         searchAptData += `<p>아파트 검색결과가 없습니다</p>`
         searchAptData += `</div>`
         searchAptData += `<div style="font-size: 14px; display: flex; flex-wrap: wrap; justify-content: center; line-height: 140%;">`
-        searchAptData += `<p>계약 단지의 경우에도 게약 등록된 아파트 단지 주소를</p>`
+        searchAptData += `<p>계약 단지의 경우에도 등록된 아파트 단지 주소를</p>`
         searchAptData += `<p>정확히 입력하지 않으면 확인 안될 수 있습니다.</p>`
         searchAptData += `<p>아파트 단지 주소를 확인 후 검색해 보세요.</p>`
         searchAptData += `</div>`
