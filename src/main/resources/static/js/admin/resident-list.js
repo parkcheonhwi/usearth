@@ -420,7 +420,7 @@ function appendPost(resident) {
 
 // 서버로 업데이트 요청 보내는 함수
 async function sendUpdateRequest(residentId, approvalStatus) {
-    const url = 'http://localhost:10000/lists/api/update'; // 실제 서버 URL로 대체해야 함
+    const url = '/lists/api/update'; // 실제 서버 URL로 대체해야 함
 
     const data = {
         id: residentId,
